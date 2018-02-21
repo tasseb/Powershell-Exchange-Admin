@@ -20,7 +20,7 @@ N/A (to be defined)
 | :--- | :--- | :---: |
 | [Add-Delegation](Module/ExchAdmin/Functions/Add-Delegation.ps1) | Add a delegation (Full Access) on a mailbox | [:book:](Documentation/Functions/Add-Delegation.md) |
 | [Add-DelegationCSV](Module/ExchAdmin/Functions/Add-DelegationCSV.ps1) | Add a list of delegations (Full Access) on one or multiple mailboxes from a CSV File | [:book:](Documentation/Functions/Add-DelegationCSV.md) |
-| [Get-DelegationList](Module/ExchAdmin/Functions/Get-Delegation.ps1) | Get a list of delegation on a mailbox | [:book:] (Documentation/Functions/Get-Delegation.md) |
+| [Get-DelegationList](Module/ExchAdmin/Functions/Get-Delegation.ps1) | Get a list of delegation on a mailbox | [:book:](Documentation/Functions/Get-Delegation.md) |
 | [Remove-Delegation](Module/ExchAdmin/Functions/Remove-Delegation.ps1) | Remove a delegation on a mailbox | [:book:](Documentation/Functions/Remove-Delegation.md) |
 | [Remove-DelegationCSV](Module/ExchAdmin/Functions/Remove-DelegationCSV.ps1) | Remove a list of delegations on one or multiple mailboxes from a CSV File | [:book:](Documentation/Functions/Remove-DelegationCSV.md) |
 
