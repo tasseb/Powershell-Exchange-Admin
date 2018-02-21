@@ -28,7 +28,7 @@ N/A (to be defined)
 
 | Function | Description | Help |
 | :--- | :--- | :---: |
-| [add-mailboxalias](Module/ExchAdmin/Functions/Add-MailboxAlias.ps1) | Add a list of aliases on an existing mailbox from a CSV File | [:book:](Documentation/Functions/Add-MailboxAlias.md) |
+| [Add-MailboxAlias](Module/ExchAdmin/Functions/Add-MailboxAlias.ps1) | Add a list of aliases on an existing mailbox from a CSV File | [:book:](Documentation/Functions/Add-MailboxAlias.md) |
 | [Remove-MailboxAlias](Module/ExchAdmin/Functions/Remove-MailboxAlias.ps1) | Add a list of aliases on an existing mailbox from a CSV File | [:book:](Documentation/Functions/Remove-MailboxAlias.md) |
 
 
@@ -42,5 +42,6 @@ N/A (to be defined)
 
 | Function | Description | Help |
 | :--- | :--- | :---: |
+| [Import-ExchangeSession](Module/ExchAdmin/Functions/Import-ExchangeSession.ps1) | Import Exchange cmdlet in this Powershell session | [:book:](Documentation/Functions/Import-ExchangeSession.md) |
 | [Get-UserInfo](Module/ExchAdmin/Functions/Get-UserInfo.ps1) | Return a list of informations about the AD user put in paramater | [:book:](Documentation/Functions/Get-UserInfo.md) |
 | [List-GroupMember](Module/ExchAdmin/Functions/List-GroupMember.ps1) | Return a list of user, members of the group specified in paramter  | [:book:](Documentation/Functions/List-GroupMember.md) |
