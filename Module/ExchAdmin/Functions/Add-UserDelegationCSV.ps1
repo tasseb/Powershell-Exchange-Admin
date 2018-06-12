@@ -8,7 +8,7 @@
 .PARAMETER Path
    Le paramètre Path correspond au chemin complet vers le fichier CSV à importer. S'il n'est pas précisé, une boîte de dialogue sera ouverte pour la sélection du fichier.
 .EXAMPLE
-   Add-DelegationCSV -Path "C:\fichier.csv"
+   Add-USerDelegationCSV -Path "C:\fichier.csv"
    
    Le nom du fichier CSV n'a pas d'importance, son emplacement non plus tant que le chemin est atteignable par l'ordinateur qui lance la commande
    Le format du fichier CSV est sans en-tête, sous le format suivant: "Nom ou alias BAL générique;Nom ou alias du bénéficiare"
@@ -17,7 +17,7 @@
    contact;Aurore Mahler;
 
 #>
-function Add-DelegationCSV
+function Add-UserDelegationCSV
 {
     [CmdletBinding()]
     Param

@@ -9,13 +9,13 @@
 .PARAMETER User
    Ce paramètre est obligatoire et correspond à l'alias ou le nom de l'utilisateur à qui l'on ajoute une délégation
 .EXAMPLE
-   Add-Delegation -Target contact -User jean.phumune
+   Add-UserDelegation -Target contact -User jean.phumune
    Ajout d'une délégation sur la boîte contact pour l'utilisateur dont l'alias est jean.phumune
 .EXAMPLE
-   Add-Delegation -Target "Contact Mailbox" -User "Jean Phumune"
+   Add-UserDelegation -Target "Contact Mailbox" -User "Jean Phumune"
    Ajout d'une délégation sur la boîte contact pour l'utilisateur "Jean Phumune"
 #>
-function Add-Delegation
+function Add-UserDelegation
 {
     [CmdletBinding()]
     Param
